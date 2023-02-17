@@ -25,7 +25,7 @@ namespace GuestiaCodingTask
             GuestiaContext context = new GuestiaContext();
 
             foreach (IGrouping<GuestGroup, Guest> guestGroupGuestDict in context.Guests.
-                Where(g => g.RegistrationDate != null). // Remove all who have registered
+                Where(g => g.RegistrationDate == null). // Remove all who have registered
                 OrderBy(g => g.LastName). // Sort by last name
                 GroupBy(g => g.GuestGroup)) // Group by VIP/Standard
             {

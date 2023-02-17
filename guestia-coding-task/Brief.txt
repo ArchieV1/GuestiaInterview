@@ -1,0 +1,17 @@
+INSTRUCTIONS
+
+PreRequisites 
+To complete this task you will need access to the following
+- Visual Studio: https://visualstudio.microsoft.com/
+- SqlServerExpress: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+BRIEF
+Our client is planning an event that is to be attended by 90 guests. These guests have been separated into two different groups, Standard and VIP.
+The client has requested that we supply them with a report of all guests that have not yet registered in the system. 
+They would like the report to group the guests by the guest group that they are assigned to (standard or vip) and would like both lists to be ordered alphabetically.
+The client also requires that the guest names are formatted correctly as per the specification they have previously supplied us with. 
+These specifications are already stored on the GuestGroup entity in our database.
+Update this app to produce the report the client has requested. Output the report should be to the console.
+
+NOTES
+The database and data required for this task will be created when the app is run.
